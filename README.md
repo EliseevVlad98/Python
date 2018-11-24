@@ -44,3 +44,8 @@ for _ in range(10):
     numbers.append(random.randint(1, 20))
 print(numbers)
 print(sorted(numbers)
+
+blink = ([], [])
+blink[0].append(5)
+blink[0].append(10)
+print(blink)
